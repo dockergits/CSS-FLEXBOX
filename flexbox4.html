@@ -8,6 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="layout">
+        <div class="header"><p>Yay, congratulations!!</p></div>
+        <div class="main">
+            <div class="main1">
+                <p>You've done it! for that, you'll receive a gift from me)<br>just say a secret password</p>
+                <button id="button">click on me</button>
+                <div id="footer">(it's mapatotiee23)</div>
+                <script>
+                    const button = document.getElementById('button');
+                    const footer = document.getElementById('footer');
+                
+                    // Прямое присвоение обработчика события
+                    button.onclick = function() {
+                        if (footer.style.display === 'none') {
+                            footer.style.display = 'block'; // Показываем тег
+                        } else {
+                            footer.style.display = 'none'; // Скрываем тег
+                        }
+                    };
+                </script>
+                
+            </div>
+        </div>
+        <div class="footer" >(it's mapatotiee23)</div>
+      </section>
+      
+
+
+
 </body>
 </html>

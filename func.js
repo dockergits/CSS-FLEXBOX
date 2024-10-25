@@ -4,7 +4,7 @@ function isDateMatch() {
 
     // Проверьте, что дата введена в правильном формате
     if (!inputDate) {
-        alert('Введи дату)');
+        alert('You need to write a date)');
         return false;
     }
 
@@ -16,9 +16,9 @@ function isDateMatch() {
     if (inputDateObj.getDate() === targetDate.getDate() &&
         inputDateObj.getMonth() === targetDate.getMonth() &&
         inputDateObj.getFullYear() === targetDate.getFullYear()) {
-        alert('Молодца!');
+        
         window.location = 'flexbox4.html';
     } else {
-        alert('Почти)');
+        alert('Almost there!');
     }
 }
